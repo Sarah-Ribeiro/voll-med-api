@@ -1,0 +1,88 @@
+2023-08-17 15:15:43,961 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-17 15:16:09,934 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: med.voll:api:0.0.1-SNAPSHOT @ /Users/sarahribeiro/www/voll-med-api/api/pom.xml.
+2023-08-17 15:16:11,644 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/main/java
+2023-08-17 15:16:11,645 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2023-08-17 15:16:11,645 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2023-08-17 15:16:11,646 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/test/java
+2023-08-17 15:16:11,960 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2023-08-17 15:16:13,864 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:16:13,889 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:16:13,906 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:16:42,142 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:16:42,144 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:16:42,153 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:16:50,330 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-08-17 15:16:50,687 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: med.voll:api:0.0.1-SNAPSHOT @ /Users/sarahribeiro/www/voll-med-api/api/pom.xml.
+2023-08-17 15:16:51,228 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/main/java
+2023-08-17 15:16:51,228 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2023-08-17 15:16:51,229 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2023-08-17 15:16:51,229 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/test/java
+2023-08-17 15:16:51,497 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-08-17 15:16:51,987 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:16:52,001 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:16:52,011 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:08,412 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:08,419 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:08,423 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:16,573 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:16,590 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:16,593 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:25,766 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:25,772 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:25,775 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:29,875 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:29,882 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:29,885 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:48,141 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:48,146 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:48,149 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:18:51,592 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:18:51,598 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:18:51,601 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:19:38,031 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:19:38,046 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:19:38,052 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:21:49,019 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:21:49,036 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:21:49,039 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:22:30,959 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:22:30,979 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:22:30,982 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:22:38,330 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:22:38,335 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:22:38,338 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:23:24,843 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:23:24,848 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:23:24,850 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 15:23:53,117 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 15:23:53,122 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 15:23:53,125 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:35:57,114 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.13; built: 2022-12-07T20:13:20.134Z; git: 1c2636ea05c0ca8de1ffd6ca7f3a98ac084c766d; jvm 17.0.7+7
+2023-08-17 17:35:57,139 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-08-17 17:35:57,169 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@71256a62{/help,null,AVAILABLE}
+2023-08-17 17:35:57,184 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@47c85bd4{HTTP/1.1, (http/1.1)}{127.0.0.1:58330}
+2023-08-17 17:35:57,186 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@2eca97fe{STARTING}[10.0.13,sto=0] @8450575ms
+2023-08-17 17:37:09,130 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:37:09,151 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:37:09,154 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:39:19,557 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:39:19,573 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:39:19,576 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:40:56,325 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:40:56,332 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:40:56,335 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:43:27,842 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:43:27,848 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:43:27,851 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:44:42,770 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:44:42,775 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:44:42,778 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:44:43,861 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:44:43,875 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:44:43,878 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:44:52,006 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-08-17 17:44:52,023 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-08-17 17:44:52,026 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/sarahribeiro/www/voll-med-api/api/src/test/resources
+2023-08-17 17:52:09,476 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@2eca97fe{STOPPING}[10.0.13,sto=0]
+2023-08-17 17:52:09,484 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@47c85bd4{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-08-17 17:52:09,492 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@71256a62{/help,null,STOPPED}

@@ -1,0 +1,18 @@
+package med.voll.api.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import jakarta.validation.Valid;
+import med.voll.api.domain.usuario.DadosAutenticacao;
+
+@RestController
+@RequestMapping("/login")
+public class AutenticacaoController {
+	
+	@PostMapping
+	public ResponseEntity<?> efetuarLogin(@RequestBody @Valid DadosAutenticacao dados) {
+		
+	}
+	
+}
