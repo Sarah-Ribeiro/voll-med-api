@@ -3,8 +3,6 @@ package med.voll.api.controller;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-import java.time.LocalDateTime;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,14 +16,8 @@ import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
-
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 
-import med.voll.api.domain.consulta.AgendaDeConsultas;
-import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
-import med.voll.api.domain.consulta.DadosDetalhamentoConsulta;
 import med.voll.api.domain.endereco.DadosEndereco;
 import med.voll.api.domain.endereco.Endereco;
 import med.voll.api.domain.medico.DadosCadastroMedico;
@@ -35,8 +27,6 @@ import med.voll.api.domain.medico.Medico;
 import med.voll.api.domain.medico.MedicoRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
 
 @SpringBootTest
 @AutoConfigureMockMvc
