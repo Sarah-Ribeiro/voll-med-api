@@ -5,6 +5,7 @@ import java.nio.file.AccessDeniedException;
 import javax.security.sasl.AuthenticationException;
 
 import org.springframework.http.*;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.security.authentication.*;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.*;
@@ -34,6 +35,11 @@ public class TratadorDeErros {
 	@ExceptionHandler(BadCredentialsException.class)
 	public ResponseEntity<?> tratarErroBadCredencials() {
 		return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Credenciais inválidas");
+	}
+
+	@ExceptionHandler(HttpMessageNotReadableException.class)
+	public ResponseEntity<?> tratarErro400(HttpMessageNotReadableException ex) {
+		return ResponseEntity.badRequest().body(ex.getMessage());
 	}
 
 	@ExceptionHandler(AuthenticationException.class)
