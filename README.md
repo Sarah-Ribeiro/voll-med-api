@@ -74,7 +74,7 @@ A brief overview of the available endpoints:
 - `POST /medicos` - Register a new doctor.
 - `PUT /medicos` - Update an existing doctor's information.
 - `DELETE /medicos/{id}` - Logically delete a doctor (inactive).
-- `POST /appointments` - Schedule a new appointment.
+- `POST /consultas` - Schedule a new appointment.
 
 ... and many more.
 
