@@ -70,10 +70,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 A brief overview of the available endpoints:
 
 - `POST /login` - Authenticate a user and receive a JWT token.
-- `GET /doctors` - List all active doctors with pagination.
-- `POST /doctors` - Register a new doctor.
-- `PUT /doctors` - Update an existing doctor's information.
-- `DELETE /doctors/{id}` - Logically delete a doctor (inactive).
+- `GET /medicos` - List all active doctors with pagination.
+- `POST /medicos` - Register a new doctor.
+- `PUT /medicos` - Update an existing doctor's information.
+- `DELETE /medicos/{id}` - Logically delete a doctor (inactive).
 - `POST /appointments` - Schedule a new appointment.
 
 ... and many more.
